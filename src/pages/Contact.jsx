@@ -86,7 +86,7 @@ const Contact = () => {
       title: 'Email',
       details: [
         'bs@baskengineeringlimited.com',
-        'baskengineeringltd2yahoo.com'
+        'baskengineeringltd@yahoo.com'
       ],
       color: 'text-orange-600'
     },
@@ -279,7 +279,7 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section Placeholder
+      {/* Map Section Placeholder 
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
@@ -293,7 +293,7 @@ const Contact = () => {
             <GoogleMapComponent />
           </Card>
         </div>
-      </section> */}
+      </section>*/}
 
       {/* Quick Response Promise */}
       <section className="py-16 bg-blue-900 text-white">

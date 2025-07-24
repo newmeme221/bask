@@ -246,24 +246,24 @@ const Home = () => {
         Trusted by Leading Companies
       </h2>
       <p className="text-lg text-gray-600">
-        We have gained longstanding relationships with major companies across Ghana
+        We have gained longstanding relationships with major companies across Ghana.
       </p>
     </div>
     <Slider {...clientSettings}>
       {clients.map((client, index) => (
-        <div key={index} className="px-4">
-          <Card className="hover:shadow-md transition-shadow h-full flex flex-col items-center text-center py-8">
-            <CardContent>
-              <div className="w-28 h-28 mx-auto h-full overflow-hidden border-4 border-gray-200 mb-4">
+        <div key={index} className="px-4 h-full">
+          <Card className="h-[200px] flex flex-col justify-between items-center text-center hover:shadow-lg transition duration-300">
+            <CardContent className="flex flex-col items-center justify-center p-6 h-full">
+              <div className="w-24 h-20 mb-4 h-full overflow-hidden  flex items-center ">
                 <img
                   src={`/images/clients/client-${index + 1}.png`}
                   alt={client}
-                  className="w-full h-full object-cover"
+                  className="object-contain w-full h-full"
                 />
               </div>
-              <div className="flex items-center justify-center text-gray-900 font-medium text-sm">
-                <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                {client}
+              <div className="flex items-center justify-center text-gray-800 font-medium text-sm text-center px-2">
+                <CheckCircle className="h-5 w-5 text-green-500 mr-2 shrink-0" />
+                <span className="leading-snug break-words">{client}</span>
               </div>
             </CardContent>
           </Card>
@@ -272,6 +272,7 @@ const Home = () => {
     </Slider>
   </div>
 </section>
+
 
 
       {/* CTA Section */}
