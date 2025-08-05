@@ -22,7 +22,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2 text-orange-500" />
-                <span className="text-sm">(233) 0246 381 748 / 0272 903 115</span>
+                <span className="text-sm">(233) 0246 381 748 </span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-orange-500" />
@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 BASK Engineering Ltd. All rights reserved.
+              © 2025 BASK Engineering Ltd. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <span className="text-gray-400 text-sm">Safety • Quality • Timely Delivery</span>

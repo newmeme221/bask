@@ -95,13 +95,14 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">Our Story</h2>
             <p className="text-gray-600 mb-4">
-              BASK Engineering Limited is fully structured and dynamic, specializing in comprehensive engineering solutions. With our strong management team and trained employees, we have built a reputation for excellence.
+              BASK Engineering Limited is a fully structured and dynamic company specializing in comprehensive engineering solutions. Backed by a strong management team and highly trained employees, we have earned a solid reputation for excellence.
             </p>
             <p className="text-gray-600 mb-4">
-              Our modern, well-maintained fleet enables competitively priced services without compromising Safety, Quality, or Timely Delivery.
+              We deliver projects at competitive costs without compromising on quality, safety, or timelines.
+              
             </p>
             <p className="text-gray-600">
-              This commitment to excellence has earned us recognition for Total Quality Management both locally and internationally.
+              Our unwavering commitment to Total Quality Management has earned us recognition both locally and internationally, positioning BASK Engineering Limited as one of the leading engineering firms in Ghana and West Africa — known for our excellence, innovation, and integrity.
             </p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
@@ -131,7 +132,7 @@ const About = () => {
                 <h3 className="text-2xl font-bold">Our Mission</h3>
               </div>
               <p className="text-gray-600 text-base leading-relaxed">
-                To provide specialized engineering and construction services in a professional manner in accordance with internationally recognized Health, Safety and Environmental Standards.
+                To become one of the leading engineering companies in Ghana and West Africa, recognized for excellence, innovation, and integrity
               </p>
             </CardContent>
           </Card>
@@ -145,7 +146,7 @@ const About = () => {
                 <h3 className="text-2xl font-bold">Our Vision</h3>
               </div>
               <p className="text-gray-600 text-base leading-relaxed">
-                To become one of the world's leading companies, bringing innovations to improve the way the world works and lives.
+                Our vision is to be a top-tier engineering company in Ghana and West Africa, delivering world-class solutions with a strong commitment to quality, safety, sustainability, and client satisfaction.
               </p>
             </CardContent>
           </Card>

@@ -74,10 +74,7 @@ const Contact = () => {
       icon: Phone,
       title: 'Phone Numbers',
       details: [
-        '(233) 0246 381 748',
-        '(233) 0272 903 115',
-        '(233) 0233 381 748',
-        '(233) 0560 184 674'
+        '(233) 0246 381 748'
       ],
       color: 'text-green-600'
     },
