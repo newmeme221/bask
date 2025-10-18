@@ -67,6 +67,17 @@ const Services = () => {
         'Blasting to standard', 'Quality work guarantee', 'Trained and certified teams',
         'Qualified QC staff supervision', 'Recorded processes for client review'
       ]
+    } ,
+      {
+      icon: Shield,
+      title: 'Civil Engineering',
+      description: 'Comprehensive civil engineering services with a focus on quality and safety',
+      image: '/images/services/service-6.jpg',
+      capabilities: [
+        'Site preparation', 'Earthworks', 'Road construction',
+        'Drainage systems', 'Concrete works', 'Dam construction'
+      ]
+      
     }
   ];
 

@@ -71,7 +71,8 @@ const Home = () => {
     'NEWMOUNT AHAFO MINES',
     'TWELLIUM INDUSTRY',
     'AFOTEK GLOBAL CONST.',
-    'ICON HOUSE'
+    'ICON HOUSE',
+    'AGILITY LOGISTICS'
   ];
 
   const heroSettings = {
@@ -145,7 +146,7 @@ const Home = () => {
   <div className="relative z-10 h-full flex items-center justify-center text-center px-4">
     <div>
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-        Ghana's Leading <span className="text-orange-500">Engineering</span> Company
+        One of Ghana's Leading <span className="text-orange-500">Engineering</span> Companies
       </h1>
       <p className="text-lg md:text-2xl text-blue-100 max-w-3xl mx-auto mb-8">
         Delivering projects of any size with the tenacity to provide competitive services
