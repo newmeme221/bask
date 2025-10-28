@@ -21,6 +21,14 @@ const JobApplicationForm = () => {
     <div className="max-w-2xl mx-auto p-6">
       <Card className="shadow-lg">
         <CardHeader className="text-center">
+          <CardTitle className="text-3xl font-bold text-blue-900 flex items-center justify-center gap-2">
+            <Briefcase className="h-7 w-7 text-orange-500" />
+            Join Our Team
+          </CardTitle>
+          <CardDescription className="text-lg text-gray-600">
+            We're looking for talented individuals to help us build the future
+            of engineering.
+          </CardDescription>
         </CardHeader>
 
         <CardContent className="p-8">
